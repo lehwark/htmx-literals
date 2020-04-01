@@ -1,0 +1,40 @@
+{
+  "name": "htmx",
+  "displayName": "htmx",
+  "description": "HTML Syntax highlighting in tagged template strings for arbitrary tag function names beginning with 'htm'",
+  "version": "1.0.0",
+  "publisher": "lehwark",
+  "icon": "logo.png",
+  "engines": {
+    "vscode": "^1.19.0"
+  },
+  "galleryBanner": {
+    "color": "#333",
+    "theme": "dark"
+  },
+  "repository": {
+    "url": ""
+  },
+  "categories": [],
+  "keywords": ["syntax highlighting", "html", "typescript", "javascript", "html", "tagged template literals"],
+  "contributes": {
+    "grammars": [
+      {
+        "injectTo": [
+          "source.html",
+          "source.js",
+          "source.js.jsx",
+          "source.jsx",
+          "source.ts",
+          "source.tsx",
+          "text.html"
+        ],
+        "scopeName": "htmx",
+        "path": "./syntaxes/htmx.json",
+        "embeddedLanguages": {
+          "meta.embedded.block.html": "html"
+        }
+      }
+    ]
+  }
+}
