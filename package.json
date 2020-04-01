@@ -1,8 +1,8 @@
 {
-  "name": "htmx",
-  "displayName": "htmx",
-  "description": "HTML Syntax highlighting in tagged template strings for arbitrary tag function names beginning with 'htm'",
-  "version": "1.0.0",
+  "name": "htmx-literals",
+  "displayName": "htmx-literals",
+  "description": "HTML Syntax highlighting in tagged template literals for arbitrary tag function names beginning with 'htm'",
+  "version": "1.0.1",
   "publisher": "lehwark",
   "icon": "logo.png",
   "engines": {
@@ -13,9 +13,9 @@
     "theme": "dark"
   },
   "repository": {
-    "url": ""
+    "url": "https://github.com/lehwark/htmx-literals"
   },
-  "categories": [],
+  "categories": ["Language Packs", "Linters", "Programming Languages"],
   "keywords": ["syntax highlighting", "html", "typescript", "javascript", "html", "tagged template literals"],
   "contributes": {
     "grammars": [
