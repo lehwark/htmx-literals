@@ -5,7 +5,7 @@
     "ts",
     "tsx"
   ],
-  "injectionSelector": "L:source.js -comment -string, L:source.jsx -comment -string,  L:source.js.jsx -comment -string, L:source.ts -comment -string, L:source.tsx -comment -string",
+  "injectionSelector": "L:source.js -comment, L:source.jsx -comment, L:source.ts -comment, L:source.tsx -comment",
   "patterns": [
     {
       "begin": "((htm\\w*|template))(`)",

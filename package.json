@@ -2,7 +2,7 @@
   "name": "htmx-literals",
   "displayName": "htmx-literals",
   "description": "HTML Syntax highlighting in tagged template literals for arbitrary tag function names beginning with 'htm'",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "lehwark",
   "icon": "logo.png",
   "engines": {
